@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SignUp</string>
+    <string name="hint"><font size = "13">Phone number, email address or username</font></string>
+    <string name="hintPass"><font size = "13" >Password</font></string>
+</resources>
