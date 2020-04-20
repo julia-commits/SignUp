@@ -34,8 +34,8 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="24dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="@string/hint"
-                android:inputType="text"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
                 android:padding="16dp"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -48,8 +48,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="@string/hint"
-                android:inputType="text"
+                android:hint="@string/hintPass"
+                android:inputType="textPassword"
                 android:padding="16dp"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="@+id/search"
@@ -72,6 +72,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="1dp"
@@ -82,6 +83,57 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="127dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="246dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/button_corners"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="145dp"
+        android:text="@string/account"
+        android:textColor="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="185dp"
+        android:text="@string/create"
+        android:textColor="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:clickable="true"
+        android:onClick="createAccount"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/copyright"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

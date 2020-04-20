@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">SignUp</string>
-    <string name="hint"><font size = "13">Phone number, email address or username</font></string>
+    <string name="hint"><font size = "13">Email</font></string>
     <string name="hintPass"><font size = "13" >Password</font></string>
+    <string name="passlabel">Password</string>
+    <string name="emaillabel">Email</string>
+    <string name="email">Email</string>
+    <string name="account">Don\'t Have An Account?</string>
+    <string name="account1">Already have an account?</string>
+    <string name="create">Create One</string>
+    <string name="create2">Login</string>
+    <string name="copyright">Copyright © 2020 </string>
+    <string name="pageTitle">Create Account </string>
+    <string name="fullname">Full Name </string>
+    <string name="username">Username </string>
+    <string name="login"><font size = "13" >LOGIN</font></string>
+    <string name="signup"><font size = "13" >SIGNUP</font></string>
 </resources>
