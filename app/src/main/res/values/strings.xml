@@ -13,6 +13,7 @@
     <string name="pageTitle">Create Account </string>
     <string name="fullname">Full Name </string>
     <string name="username">Username </string>
+    <string name="pass1">Forgot Password? </string>
     <string name="login"><font size = "13" >LOGIN</font></string>
     <string name="signup"><font size = "13" >SIGNUP</font></string>
 </resources>
